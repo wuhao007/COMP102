@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=records
+comment0.target=void\ sort(GameRecord[])
+comment1.params=r1\ r2
+comment1.target=int\ compare(GameRecord,\ GameRecord)
+comment2.params=r1\ r2
+comment2.target=boolean\ equals(GameRecord,\ GameRecord)
+numComments=3
