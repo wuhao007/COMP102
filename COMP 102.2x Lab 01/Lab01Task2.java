@@ -2,8 +2,36 @@
 public class Lab01Task2
 {
     public GameRecord[] updateGameRecords(GameRecord[] oldRecords, GameRecord newRecord) {
-        
-        return null; // this line should be removed or modified when the implementation of this method is completed.
+        int num = 0;
+        int j = 0;
+        for (int i = 0; i < oldRecords.length; i++) {
+            if (oldRecords[i].getLevel() == newRecord.getLevel()) {
+                num += 1;
+                if (oldRecords[i].getName().equals(newRecord.getName())) {
+                    if (oldRecords[i].getScore() < newRecord.getScore()) {
+                        oldRecords[i].setScore(newRecord.getScore());
+                    }
+                    Util.sort(oldRecords);
+                    return oldRecords;
+                }
+                if (oldRecords[i].getScore() < newRecord.getScore()) {
+                    j = i;
+                }
+            }
+        }
+        if (num < 10) {
+            GameRecord[] newRecords = new GameRecord[oldRecords.length + 1];
+            System.arraycopy(oldRecords, 0, newRecords, 0, oldRecords.length);
+            newRecords[oldRecords.length] = newRecord;
+            Util.sort(newRecords);
+            return newRecords;
+        } else {
+            GameRecord[] newRecords = new GameRecord[oldRecords.length];
+            System.arraycopy(oldRecords, 0, newRecords, 0, oldRecords.length);
+            newRecords[j] = newRecord;
+            Util.sort(newRecords);
+            return newRecords;
+        }
     }
     
     // test case 1: updating an existing record, given that the new record has a better score.
