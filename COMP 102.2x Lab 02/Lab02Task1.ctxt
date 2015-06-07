@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=records\ writer
+comment0.target=void\ saveGameRecords(GameRecord[],\ java.io.Writer)
+comment0.text=\n\ Saves\ all\ the\ game\ records\ in\ the\ GameRecord\ array\ to\ a\ text\ file.\n\ Each\ game\ record\ should\ be\ written\ in\ a\ new\ line\ in\ the\ text\ file.\n\ The\ name,\ level\ and\ score\ should\ be\ separated\ by\ a\ tab\ character('\\t')\ in\ each\ line.\n\ \n\ @param\ records\ \ \ The\ GameRecord\ array\ containing\ all\ the\ game\ records.\n\ @param\ writer\ \ \ \ The\ java.io.Writer\ object\ which\ points\ to\ the\ file\ to\ be\ written.\n
+comment1.params=
+comment1.target=void\ testCase1()
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=reader
+comment0.target=GameRecord[]\ loadGameRecord(java.io.Reader)
+comment0.text=\n\ Loads\ the\ game\ records\ from\ a\ text\ file.\n\ A\ GameRecord\ array\ is\ constructed\ to\ store\ all\ the\ game\ records.\n\ The\ size\ of\ the\ GameRecord\ array\ should\ be\ the\ same\ as\ the\ number\ of\ non-empty\ records\ in\ the\ text\ file.\n\ The\ GameRecord\ array\ contains\ no\ null/empty\ entries.\n\ \n\ @param\ reader\ \ \ \ The\ java.io.Reader\ object\ that\ points\ to\ the\ text\ file\ to\ be\ read.\n\ @return\ \ A\ GameRecord\ array\ containing\ all\ the\ game\ records\ read\ from\ the\ text\ file.\n
+comment1.params=
+comment1.target=void\ testCase1()
+numComments=2
