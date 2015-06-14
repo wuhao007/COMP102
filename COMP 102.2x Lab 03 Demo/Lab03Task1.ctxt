@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=image\ x\ y\ width\ height\ stripeSize
+comment0.target=void\ changeScreen(comp102x.ColorImage,\ int,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ This\ recursive\ method\ draws\ stripe\ images\ from\ left\ to\ right,\ top\ to\ bottom,\ right\ to\ left\ and\ bottom\ to\ top\ repeatedly.\r\n\ The\ drawing\ repeats\ until\ the\ remaining\ area\ is\ too\ small\ for\ drawing\ two\ horizontal\ stripes\ or\ two\ vertical\ stripes\ without\ overlapping.\r\n\ All\ the\ remaining\ area\ that\ are\ too\ small\ for\ drawing\ should\ be\ covered\ by\ a\ single\ stripe\ drawn\ from\ left\ to\ right\ at\ the\ end.\r\n\ \r\n\ @param\ image\ the\ ColorImage\ of\ which\ the\ stripes\ should\ be\ drawn\ on.\r\n\ @param\ x\ the\ x\ position\ of\ the\ remaining\ area.\r\n\ @param\ y\ the\ y\ position\ of\ the\ remaining\ area.\r\n\ @param\ width\ the\ width\ of\ the\ remaining\ area.\r\n\ @param\ height\ the\ height\ of\ the\ remaining\ area.\r\n\ @param\ stripeSize\ the\ thickness\ of\ the\ stripe\ to\ be\ drawn.\r\n
+comment1.params=image\ left\ top\ length\ stripeSize\ direction
+comment1.target=void\ animateStripe(comp102x.ColorImage,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment2.params=ticks
+comment2.target=void\ pauseByTicks(long)
+numComments=3
